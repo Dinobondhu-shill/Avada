@@ -1,0 +1,251 @@
+@media (min-width: 1200px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px){}
+@media (min-width: 576px) and (max-width: 767.98px){}
+@media (max-width: 575.98px) {
+  /* common css start */
+  .common_button {
+    padding: 10px;
+    font-size: 12px !important;
+    cursor: pointer;
+  }
+
+  /* common css End */
+
+  /* Menu css start */
+  .navbar {
+    --bs-navbar-toggler-focus-width: none;
+  }
+  .main_menu {
+    top: 8px;
+    left: 5px;
+    text-align: center;
+  }
+  .main_logo{
+    width: 130px;
+  }
+  .main_menu button{
+    border: none;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    transition: ease-in-out;
+  }
+  .main_menu button:hover i{
+    transform: rotate(180deg);
+  }
+  .main_menu ul {
+    gap: 8px;
+    text-align: center;
+    background:transparent;
+    backdrop-filter: blur(2px);
+    margin-bottom: 10px;
+  }
+  .main_menu ul li:hover{
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+  }
+  .main_menu .common_button {
+  width: fit-content;
+  margin-top: 25px;
+  }
+  /* Menu css End */
+
+  /* banner css start */
+  #banner {
+    padding: 88px 0;
+
+  }
+  #banner h1 {
+    width: 100%;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  .banner_button {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-left: 37px;
+  }
+  /* banner css End */
+
+  /* adventure css start */
+  #adventure {
+    padding: 35px 0;
+  }
+  #adventure h2 {
+    font-size: 39px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  #adventure .adventure_p {
+    margin-bottom: 20px;
+  }
+  #adventure ul {
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  #adventure .common_button{
+    margin-bottom: 25px;
+  }
+  .counterdiv {
+    margin-top: 40px;
+    gap: 15px;
+  }
+  /* adventure css End */
+
+  /* activities css start */
+  #activities {
+    padding-top: 40px;
+  }
+  #activities h2 {
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .activities_p p {
+    width: 100%;
+    margin: 45px 0 30px;
+  }
+  .activities_item {
+    margin-bottom: 15px;
+  }
+  .activities_item a{
+    display: block;
+  }
+  .extream_sport {
+    margin: 15px 0;
+    font-size: 54px;
+  }
+  .stat-bg {
+    bottom: -2%;
+    left: -6%;
+    width: 100%;
+    max-width: 100%;
+  }
+  /* activities css End */
+  /* joint css start */
+  #joint h2 {
+    font-size: 31px;
+    margin-bottom: 15px;
+  }
+  #joint h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .joint_item {
+    margin: 0 auto;
+  }
+  .joint_button {
+    gap: 15px;
+  }
+  .joint_body {
+    gap: 30px;
+    margin-top: 50px;
+    bottom: 0px;
+    flex-direction: column;
+  }
+  /* joint css End */
+  /* feature css start */
+  #feature {
+    margin: 40px 0;
+  }
+  .feature_intro {
+    margin-bottom: 65px;
+  }
+  .feature_intro h3 {
+    margin-top: 6px;
+  }
+  .feature_intro h3::after {
+    bottom: -26px;
+    left: 31%;
+  }
+  .feature_heading {
+    margin-top: 15px;
+  }
+  .feature_heading h3 {
+    font-size: 22px;
+  }
+  .feature_heading p {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  /* feature css End */
+
+  /* News css start */
+  #news {
+    margin-bottom: 50px;
+  }
+  .news_intro h2 {
+    font-size: 40px;
+  }
+  .news_intro h2::after {
+    bottom: 0px;
+  }
+  .news_paragraph {
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+  .article_item {
+    margin-top: 50px;
+  }
+  .article_item h2 {
+    font-size: 27px;
+    margin: 15px 0 15px;
+  }
+  .article_item p {
+    padding-bottom: 25px;
+  }
+  .article_item a {
+    margin-top: 20px;
+  }
+
+  /* News css End */
+
+  /* Footer css start */
+  #logo {
+    margin-bottom: 30px;
+    padding-left: 35%;
+  }
+  #logo img{
+    margin-bottom: 20px;
+  }
+  .footer_details {
+    padding: 20px;
+  }
+  .footer_details img {
+    width: 120px;
+    padding-top: 0px;
+  }
+  .footer_btn {
+    display: flex;
+    gap: 50px;
+    margin-top: 19px;
+    padding-bottom: 33px;
+    border-bottom: 2px solid #C4C4C4;
+  }
+  .footer_button {
+    width: 168px;
+    height: 55px;
+    margin-top: 9px;
+  }
+  .contact {
+    gap: 15px;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .contact ul {
+    gap: 5px;
+  }
+  .footer_details h5 {
+    margin-top: 25px;
+  }
+  /* Footer css End */
+}
